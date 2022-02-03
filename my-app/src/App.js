@@ -14,7 +14,7 @@ function App() {
           <span>1205 руб.</span>
         </li>
         <li>
-          <svg />
+        <img width={20} height={20} src="/img/user.png"/>
         </li>
       </ul>
     </header>
