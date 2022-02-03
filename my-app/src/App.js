@@ -18,6 +18,9 @@ function App() {
         </li>
       </ul>
     </header>
+    <div className="content">
+      <h1>Все кросовки</h1>
+    </div>
     
   </div>
 }
