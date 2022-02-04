@@ -22,12 +22,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  border-bottom: 1px solid #eaeaea;
   
 }
 
 .headerLeft {
   display: flex;
   justify-content: center;
+  padding: 40px;
 
   img {
     margin-right: 15px;
@@ -40,6 +42,11 @@ header {
   li {
     margin-right: 30px;
     list-style-type: none;
+  }
+  .content {
+    h1 {
+      margin: 0;
+    }
   }
 
 

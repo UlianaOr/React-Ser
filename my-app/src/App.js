@@ -11,7 +11,9 @@ function App() {
       <ul className="headerRight">
         <li>
           <img width={18} height={18} src="/img/car.png"/>
-          <span>1205 руб.</span>
+          <span>
+            1205 руб.
+            </span>
         </li>
         <li>
         <img width={20} height={20} src="/img/user.png"/>
