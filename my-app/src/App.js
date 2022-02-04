@@ -26,6 +26,15 @@ function App() {
       <div className="card">
         <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"/>
         <p></p>
+        <div>
+          <div>
+            <span>Цена:</span>
+            <b>12 999 руб.</b>
+          </div>
+
+          
+          
+        </div>
      
      </div>
     
