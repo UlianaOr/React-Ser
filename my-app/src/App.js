@@ -20,16 +20,20 @@ function App() {
         </li>
       </ul>
     </header>
+
     <div className="content">
       <h1>Все кросовки</h1>
 
       <div className="card">
         <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"/>
         <p>Мужские кроссовки</p>
-        <div>
+        <div className="cardPrise" >
           <div>
-            <span>Цена:</span>
+            <div className="prise">
+            <p>Цена:</p>
+            </div>
             <b>12 999 руб.</b>
+            
           </div>
              <button>
                <img width={11} height={11} src="/img/plus.png"/>
