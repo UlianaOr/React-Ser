@@ -52,6 +52,13 @@ header {
     border: 1px solid #F8F8F8;
     padding: 20px;
     width: 210px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cardPrise {
+    display: flex;
+    justify-content: space-between;
+
   }
 
 

@@ -25,7 +25,7 @@ function App() {
 
       <div className="card">
         <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"/>
-        <p></p>
+        <p>Мужские кроссовки</p>
         <div>
           <div>
             <span>Цена:</span>
@@ -34,6 +34,7 @@ function App() {
              <button>
                <img width={11} height={11} src="/img/plus.png"/>
              </button>
+             
           
         </div>
      
