@@ -29,7 +29,7 @@ header {
 .headerLeft  {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  
 
   img {
     display: flex;
@@ -40,6 +40,7 @@ header {
   p {
     display: flex;
     margin: 0;
+    
   
   }
 } 
@@ -47,6 +48,11 @@ header {
     display: flex;
     margin-right: 30px;
     list-style-type: none;
+  }
+
+  .headerRight{
+    display: inline-flex;
+
   }
   .content {
     
