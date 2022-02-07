@@ -21,8 +21,10 @@ function App() {
       </ul>
     </header>
 
-    <div className="content">
+  <div className="content">
       <h1>Все кросовки</h1>
+
+    <div className="todoSneakers">
 
       <div className="card">
         <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"/>
@@ -46,7 +48,7 @@ function App() {
      
      </div>
     
-    </div>
+    
     
 
       <div className="card">
@@ -114,12 +116,13 @@ function App() {
         </div>
      
      </div>
+   </div>
 
      
+  </div>  
     
     
-    
-  </div>
+</div>
 }
 
 export default App;
