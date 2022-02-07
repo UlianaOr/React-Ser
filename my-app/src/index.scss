@@ -52,16 +52,21 @@ header {
     
     h1 {
       
-      margin: 0;
+      margin: 40;
     }
   }
   .card {
     
     border: 1px solid #F8F8F8;
     padding: 20px;
-    width: 210px;
+    width: 220px;
     display: flex-wrap;
     justify-content: space-between;
+
+    h5 {
+      font-size: 14px;
+      font-weight: 400;
+    }
   }
   
   .cardPrise {
@@ -89,6 +94,7 @@ header {
     border-color: 1px solid #F2F2F2;
     box-sizing: border-box;
     border-radius: 8px;
+    cursor: pointer;
 
   }
 
