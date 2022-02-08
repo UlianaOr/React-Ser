@@ -25,6 +25,7 @@ function App() {
       <h1>Все кросовки</h1>
       <div className="search-block">
         <img src="/img/search.png" alt="Search"/>
+        <input placeholder="Поиск..."/>
       </div>
 
     <div className="todoSneakers">
