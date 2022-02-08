@@ -23,6 +23,9 @@ function App() {
 
   <div className="content">
       <h1>Все кросовки</h1>
+      <div className="search-block">
+        <img src="/img/search.png" alt="Search"/>
+      </div>
 
     <div className="todoSneakers">
 
