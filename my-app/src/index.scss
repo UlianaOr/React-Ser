@@ -63,6 +63,18 @@ header {
     }
   }
 
+  .search-block {
+    display: flex;
+    justify-content: end;
+    border: 1px solid #f3f3fe;
+   
+    input {
+      border: 0;
+      padding: 10px;
+    }
+    
+  }
+
   .todoSneakers {
     display:inline-flex;
     margin-right: 30px;
