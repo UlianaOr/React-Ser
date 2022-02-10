@@ -28,7 +28,12 @@ function App() {
         <input placeholder="Поиск..."/>
       </div>
 
-     <img src ="/img/heardone.svg" alt="Heard"/>
+      <div className="favorit">
+
+        <img src ="/img/heardone.svg" alt="Heard"/>
+     </div>
+
+     
     <div className="todoSneakers">
        
 
