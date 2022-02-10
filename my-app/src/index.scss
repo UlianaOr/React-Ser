@@ -68,6 +68,11 @@ header {
     }
   }
 
+  .favorit {
+    position: absolute;
+    cursor: pointer;
+  }
+
   .search-block {
     display: flex;
     justify-content: end;
