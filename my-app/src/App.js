@@ -1,8 +1,10 @@
 function App() {
   return <div className='wrapper'>
-    <div className="drawer"></div>
+    <div className="overlay">
+      <div className="drawer"></div>
+    </div>
 
-    
+
     <header>
       <div className="headerLeft">
       <img width={40} height={40} src="/img/logo.png"/>
