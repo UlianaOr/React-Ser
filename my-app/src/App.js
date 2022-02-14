@@ -1,7 +1,9 @@
 function App() {
   return <div className='wrapper'>
     <div className="overlay">
-      <div className="drawer"></div>
+      <div className="drawer">
+        <h2>Корзина</h2>
+      </div>
     </div>
 
 
