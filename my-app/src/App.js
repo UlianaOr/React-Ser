@@ -5,6 +5,11 @@ function App() {
         <h2>Корзина</h2>
         <div className="cartItem">
           <img src="/img/sneakers/1.jpg" alt="Sneakers"/>
+          <div>
+            <p>Мужские Кроссовки Nike Air Max 270</p>
+            <b>12 999 руб.</b>
+          </div>
+          <img src="/img/btn-remove.svg" alt="Remove"/>
         </div>
         
       </div>
