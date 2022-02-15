@@ -120,6 +120,8 @@ header {
     display: flex;
     align-items: center;
     border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
 
     p {
       margin-bottom: 5px;
