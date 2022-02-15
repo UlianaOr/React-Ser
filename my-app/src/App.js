@@ -3,7 +3,9 @@ function App() {
     <div className="overlay">
       <div className="drawer">
         <h2>Корзина</h2>
-        <div className="cartItem">
+
+       <div className="items">
+         <div className="cartItem">
           <img width={70} height={70} src="/img/sneakers/1.jpg" alt="Sneakers"/>
 
           <div>
@@ -11,16 +13,34 @@ function App() {
             <b>12 999 руб.</b>
           </div>
           <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/>
+         </div>
+
+         <div className="cartItem">
+          <img width={70} height={70} src="/img/sneakers/1.jpg" alt="Sneakers"/>
+
+          <div>
+            <p>Мужские Кроссовки Nike Air Max 270</p>
+            <b>12 999 руб.</b>
+          </div>
+          <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/>
+         </div>
         </div>
 
-        <div className="cartItem">
-          <img width={70} height={70} src="/img/sneakers/1.jpg" alt="Sneakers"/>
+        <div className="itog">
 
-          <div>
-            <p>Мужские Кроссовки Nike Air Max 270</p>
-            <b>12 999 руб.</b>
-          </div>
-          <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/>
+          <ul>
+            <li>
+              <span>Итого:</span>
+              <div></div>
+              <b>21 498 руб.</b>
+            </li>
+
+            <li>
+              <span>Налог 5%:</span>
+              <div></div>
+              <b>1074 руб.</b>
+            </li>
+          </ul>
         </div>
         
       </div>
