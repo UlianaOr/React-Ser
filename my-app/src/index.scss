@@ -119,6 +119,7 @@ header {
   .cartItem {
     display: flex;
     align-items: center;
+    border: 1px solid #f3f3f3;
 
     p {
       margin-bottom: 5px;
@@ -135,6 +136,8 @@ header {
 
     .removeBtn {
       opacity: 0,5;
+      cursor: pointer;
+      transition: opacity 0.15s ease-in-out;
 
       & :hover {
         opacity: 1;
