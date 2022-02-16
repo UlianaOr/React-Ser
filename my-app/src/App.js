@@ -1,3 +1,5 @@
+import Card from './components/Card';
+
 function App() {
   return <div className='wrapper'>
     <div style={{display: 'none'}} className="overlay">
@@ -5,6 +7,7 @@ function App() {
         <h2><img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/> Корзина</h2>
 
        <div className="items">
+         <Card/>
          <div className="cartItem">
           <img width={70} height={70} src="/img/sneakers/1.jpg" alt="Sneakers"/>
 
@@ -25,6 +28,7 @@ function App() {
           <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/>
          </div>
         </div>
+
 
         <div className="itog">
 
